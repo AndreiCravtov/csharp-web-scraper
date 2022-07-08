@@ -146,15 +146,10 @@ public class ConsoleControl
         }
     }
 
-    public void ClearScreen(int clear = 100, bool strict = false)
+    public void ClearScreen(bool strict = false)
     {
         if (strict)
-        {
-            Console.SetCursorPosition(0, 0);
-            for (int i = 0; i < clear; i++)
-                Console.WriteLine("                                                                                                                                                                                                                                                                                                                                                                                                                ");
-            Console.SetCursorPosition(0, 0);
-        }
+            Console.Clear();
         else
             Console.SetCursorPosition(0, 0);
     }

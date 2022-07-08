@@ -23,7 +23,7 @@ class Program
         {
             // clear screen
             if (clearCounter % 10 == 0)
-                consoleControl.ClearScreen(100, true);
+                consoleControl.ClearScreen(true);
             else
                 consoleControl.ClearScreen();
 

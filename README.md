@@ -3,7 +3,7 @@
 
 ## Learning summary
 
-While learning the C# programming language, I have produced a simple web scraper, that scours Wikipedia web pages, as one of my projects. This project scrapes the links from each page so it can continue crawling, and the content of each page. The content is used as material to determine the letter prevalence of the letters of the English alphabet. These prevalence statistics are then displayed as a bar chart.
+While learning the C# programming language, I have produced a simple web scraper, that scours Wikipedia web pages, as one of my projects. This project scrapes the links from each page so it can continue crawling, and the content of each page. The content is used as material to determine the letter prevalence of the letters of the English alphabet. These prevalence statistics are then displayed as a bar chart to the user in the console.
 
 * C# programming language: I have learned the entry level syntax of C# as well as learning about the C# infrastructure such as Visual Studio and useful utility functionality provided by the .NET standard library. I also learned to leverage passing arguments by reference in C# (the `ref` keyword) within the design of my solution.
 

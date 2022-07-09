@@ -11,7 +11,7 @@ While learning the C# programming language, I have produced a simple web scraper
 
 * Multithreading: this app has many components which must all run simultaneously for it to work. For instance, the keyboard input being read from a user is execution blocking, so would require a separate execution thread; or for example the Selenium web scraper bot that is analysing all these letters will have to have its own thread to run in; which is, again, separate to thread that is running the main loop, in which the data is being displayed.
 
-* Selenium web driver: one of this project's core components is web scraping. For this, I needed to learn the rudimentary elements of the Selenium API for C#. I needed to know how to set options, start a web driver instance, navigate to various pages, and query the DOM - with Selenium.
+* Selenium web driver: one of this project's core components is web scraping. For this, I needed to learn the rudimentary elements of the Selenium API for C#. I needed to know how to set options, start a web driver instance, navigate to various pages, and query the DOM (with Selenium).
 
 * HyperText Markup Language: as a part of the knowledge required for using Selenium effectively, I needed to know how to work with HTML. I learned about the tree-like structure of the DOM in HTML pages, the various tags that it is composed of, and the attributes that these tags can have (such as `id`) and what they mean, as well as properties like `innerText`. I used this knowledge to construct element queries for links by finding all `<a>` tags, `id` queries for the root node of the content on a Wikipedia page, and `xpath` queries for the child elements of the current element.
 
